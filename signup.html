@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel='stylesheet'
+      href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css'><link
+      rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class="form-cont">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-10 col-lg-6 mx-auto">
+            <div class="card card-signin my-5">
+              <div class="loco">
+                <div class="logo">
+                  <a href="#FindProfessionals"><img src="img/logo.svg"
+                      alt="Logo"></a>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title text-center" id="crd">Sign Up</h5>
+                <form class="form-signin">
+                  <div class="form-label-group">
+                    <input type="email" id="inputEmail" class="form-control"
+                      placeholder="Email address" required autofocus>
+                  </div>
+
+                  <div class="form-label-group">
+                    <input type="password" id="inputPassword"
+                      class="form-control" placeholder="Password" required>
+                  </div>
+                  <div class="form-label-group">
+                    <input type="number" class="form-control inputtext"
+                      placeholder="Mobile No" aria-label="City" required>
+                  </div>
+                  
+                  <div class="form-label-group">
+                    <input type="text" class="form-control" placeholder="Firm\Company Name"
+                      aria-label="num" required>
+                  </div>
+                  <div class="form-label-group">
+                    <input type="number" class="form-control" placeholder="Mobile No"
+                      aria-label="num" required>
+                  </div>
+                  <div class="form-label-group">
+                    <input type="number" class="form-control" placeholder="Pin Code"
+                      aria-label="num" required>
+                  </div>
+                  <div class="form-label-group">
+                      <select class="form-control valid" name="ServiceType" id="ServiceType" data-gtm-form-interact-field-id="0">
+                        <option value="Service Provider">Service Provider (Architect or Interior Designer)</option>
+                        <option value="Contractor">Contractor</option>
+                        <option value="Supplier">Supplier</option>
+
+                    </select>
+                  </div>
+
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input"
+                      id="customCheck1" required>
+                    <label class="custom-control-label"
+                      for="customCheck1">I agree to terms of use and privacy policy</label>
+                  </div>
+                  <button
+                    class="btn btn-lg btn-success btn-block text-uppercase"
+                    type="submit">Register Now</button>
+                </form>
+                <div class="donthvaccou">
+                  <span>Are you already registered?</span>
+                  <a href="/login.html">
+                      Please Login
+                  </a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
